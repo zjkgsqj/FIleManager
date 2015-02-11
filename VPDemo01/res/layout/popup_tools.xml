@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/solid_top"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tools_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1.0dip"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/icon_copy_32"
+        android:gravity="center"
+        android:padding="5dp"
+        android:shadowColor="#ff000000"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:text="@string/label_popup_copy"
+        android:textColor="@color/textview_color"
+        android:textSize="13.0dip" />
+
+    <TextView
+        android:id="@+id/tools_cut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1.0dip"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/icon_cut_32"
+        android:gravity="center"
+        android:padding="5dp"
+        android:shadowColor="#ff000000"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:text="@string/label_popup_cut"
+        android:textColor="@color/textview_color"
+        android:textSize="13.0dip" />
+
+    <TextView
+        android:id="@+id/tools_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1.0dip"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/icon_delete_32"
+        android:gravity="center"
+        android:padding="5dp"
+        android:shadowColor="#ff000000"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:text="@string/label_popup_delete"
+        android:textColor="@color/textview_color"
+        android:textSize="13.0dip" />
+
+    <TextView
+        android:id="@+id/tools_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="1.0dip"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/icon_more_32"
+        android:gravity="center"
+        android:padding="5dp"
+        android:shadowColor="#ff000000"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:text="@string/label_popup_more"
+        android:textColor="@color/textview_color"
+        android:textSize="13.0dip" />
+
+</LinearLayout>
